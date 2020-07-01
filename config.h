@@ -67,6 +67,6 @@ static const struct arg args[] = {
     { ram_used,          " : %s",        NULL   },
 	{ ram_perc,          "/%s%% ",        NULL   },
 	{ swap_perc,         " 易: %s%% ",    NULL   },
-    /* { battery_remaining, " : %s%% ",     "BAT0" }, */
+    /* { battery_perc, " : %s%% ",     "BAT0" }, */
 	{ datetime,          " %s", "%F %T ", NULL   }
 };
